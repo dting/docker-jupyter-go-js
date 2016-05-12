@@ -38,4 +38,4 @@ RUN cp /usr/local/lib/node_modules/ijavascript/images/logo-64x64.png /root/.loca
 
 EXPOSE 8888
 ENTRYPOINT ["tini", "--"]
-CMD ["jupyter", "notebook"]
+CMD ["jupyter", "notebook", "--no-browser"]
